@@ -1081,6 +1081,7 @@ declare namespace CKEDITOR {
         widgets: plugins.widget.repository;
         window: dom.window;
         constructor(instanceConfig?: Object, element?: dom.element, mode?: number);
+        addContentsCss(cssPath: string): void;
         addCommand(commandName: string, commandDefinition: commandDefinition): void;
         addFeature(feature: feature): boolean;
         addMenuGroup(name: string, order?: number): void;
